@@ -1,0 +1,56 @@
+*
+{
+    font-family:"Arial Black", Arial, Verdana, sans-serif
+}
+
+h1
+{
+    font-weight:bold
+}
+
+h1
+{
+    text-decoration: underline;
+}
+
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: justify;
+}
+
+.signature
+{
+    text-align: right;
+}
+
+.signature
+{
+    color: red;
+}
+
+h1
+{
+    color: #00BEFF;
+}
+
+body
+{
+    background-color: #F9F99E;
+}
+
+mark
+{
+    background-color: red;
+}
+
+.image
+{
+    float: right;
+}
+
+
