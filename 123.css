@@ -105,7 +105,7 @@ h1
     font-size: 30px;
     left: 75px;
     border: 2px;
-    z-index: 10;
+    z-index: 12;
     background-color: yellow;
     text-decoration: none;
 }
@@ -132,7 +132,7 @@ h1
     font-size: 30px;
     left: 80px;
     border: 2px;
-    z-index: 10;
+    z-index: 12;
     background-color: yellow;
     text-decoration: none;
 }
@@ -183,7 +183,7 @@ h1
     font-size: 30px;
     left: 85px;
     border: 2px;
-    z-index: 10;
+    z-index: 12;
     background-color: yellow;
     text-decoration: none;
 }
