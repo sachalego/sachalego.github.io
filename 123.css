@@ -1,0 +1,210 @@
+*
+{
+    font-family: Arial;
+}
+
+body
+{
+    width: 100%;
+}
+
+h1
+{
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    border: 2px solid grey;
+    background-color: #AAA;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    margin: 0px;
+}
+
+.logo
+{
+    height: 70px
+}
+
+.menu
+{
+    width: 20%;
+    height: 100%;
+    background-attachment: fixed;
+    background-color: #AAA;
+    top: 104px;
+    left: 0px;
+    position: fixed;
+    font-size: 50px; 
+    z-index: 10;
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.texte1
+{
+    
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    z-index: 2;
+    text-align: justify;
+    right: 30px;
+}
+
+.texte_menu
+{
+    position: fixed;
+    left: 60px;
+    text-decoration: underline;
+    z-index: 10;
+}
+
+.actus
+{
+    
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    z-index: 2;
+}
+
+.Actu_lien
+{
+    position: fixed;
+    top: 400px;
+    font-size: 30px;
+    left: 60px;
+    border: 2px;
+    z-index: 10;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.Actu_lien:hover
+{
+    background-color: orange;
+}
+
+.Actu_lien:visited
+{
+    color: black;
+}
+
+.Actu_lien:active
+{
+    background-color: red;
+}
+
+.Accueil_lien
+{
+    position: fixed;
+    top: 300px;
+    font-size: 30px;
+    left: 75px;
+    border: 2px;
+    z-index: 10;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.Accueil_lien:hover
+{
+    background-color: orange;
+}
+
+.Accueil_lien:visited
+{
+    color: black;
+}
+
+.Accueil_lien:active
+{
+    background-color: red;
+}
+
+.Forum_lien
+{
+    position: fixed;
+    top: 500px;
+    font-size: 30px;
+    left: 80px;
+    border: 2px;
+    z-index: 10;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.Forum_lien:hover
+{
+    background-color: orange;
+}
+
+.Forum_lien:visited
+{
+    color: black;
+}
+
+.Forum_lien:active
+{
+    background-color: red;
+}
+
+
+.brique_bleu
+{
+    float: left;
+}
+
+.insta
+{
+    height: 70px;
+    z-index: 11;
+    top: 1200px;
+    position: fixed;
+}
+
+.contacts_text
+{
+    position: fixed;
+    top: 1100px;
+    left: 30px;
+    text-decoration: underline;
+    font-size: 30px;
+    z-index: 11;
+}
+
+.Ideas_lien
+{
+    position: fixed;
+    top: 600px;
+    font-size: 30px;
+    left: 85px;
+    border: 2px;
+    z-index: 10;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.Ideas_lien:hover
+{
+    background-color: orange;
+}
+
+.Ideas_lien:visited
+{
+    color: black;
+}
+
+.Ideas_lien:active
+{
+    background-color: red;
+}
+
+textarea
+{
+    width: 300px;
+    height: 100px;
+}

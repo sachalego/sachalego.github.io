@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html>
+            <head>
+                <link rel="stylesheet" href="123.css" />
+                <meta charset="utf-8" />
+                <Title> Formulaire test</Title>
+            </head>
+            <body>
+                <form method="post" action="traitement.php" class="formulaire">
+                    <p>
+                        <label for="pseudo">Votre pseudo</label>
+                        <input id="pseudo" type="text" name="pseudo" />
+                    </br>
+                        <label for="pass">Votre mot de passe :</label>
+                        <input type="password" name="pass" id="pass" /></br>
+                        <label for="ameliorer">Comment pensez-vous que je pourrais améliorer mon site ?</label></br>
+                        <textarea name="amliorer" id="ameliorer"></textarea><br>
+                        <input type="email">
+                        <input type="color" />
+                        <input type="search" /><br>
+                        <input type="checkbox" name="frites" id="frites" /> <label for="frites">Frites</label><br />
+                        <input type="checkbox" name="steak" id="steak" /> <label for="steak">Steak haché</label><br />
+                        <input type="checkbox" name="epinards" id="epinards" /> <label for="epinards">Epinards</label><br />
+                        <input type="checkbox" name="huitres" id="huitres" /> <label for="huitres">Huitres</label>
+                    </p>
+                    <p>
+                        <label for="pays">Dans quel pays habitez-vous ?</label><br/>
+                        <select name="pays" id="pays">
+                            <option value="france">France</option>
+                            <option value="espagne">Espagne</option>
+                            <option value="italie">Italie</option>
+                            <option value="royaume-uni">Royaume-Uni</option>
+                            <option value="canada">Canada</option>
+                            <option value="etats-unis">États-Unis</option>
+                            <option value="chine">Chine</option>
+                            <option value="japon">Japon</option>
+                        </select>
+                    </p>
+                </form>
+            </body>
+    </html>
